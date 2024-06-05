@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yandex home page</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <header>
+        <ul>
+            <li><img id="games"src="game-development.png" alt=""</li>
+            <p class="coo">games</p>
+            <li><img id="picture" src="picture.png" alt=""</li>
+            <p>images</p>
+            <li><img id="play" src="play.png" alt=""</li>
+            <p>video</p>
+            <li><img id="mail" src="gmail.png" alt=""</li>
+            <p>mail</p>
+            <li><img id="maps" src="google-maps.png" alt=""</li>
+            <p>maps</p>
+            <li><img id="translate" src="translate.png" alt=""</li>
+            <p>translate</p>
+            <li><img id="browser" src="firefox.png" alt=""</li>
+            <p>browser</p>
+        </ul>
+    </header> 
+
+    <main>
+        <div class="search-container">
+            <h1>Yandex</h1>
+            <div class="search">
+                <img src="magnifying-glass.png" alt="">
+                <input type="text" placeholder="Finds Everything">
+                <button type="submit">Search</button>
+            </div>  
+        </div>
+    </main>
+    <footer>
+        <div id="foter">
+            <ul>
+                <li><h1>yandex</h1></li>
+              <li><img src="russia.png" alt=""></li>
+                <li><p>russia</p></li>
+                <li><img src="turkey.png" alt=""></li>
+                <li><p>turkey</p></li>
+                <li><img src="uzbekistan.png" alt=""></li>
+                <li><p>uzbekistan</p></li>
+                <li><img src="belarus.png" alt=""></li>
+                <li><p>belarus</p></li>
+            </ul> 
+             
+        </div>
+    </footer>
+</body>
+</html>
+ 
+
+
+
+<style>
+      
+      header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header ul li{
+    margin: left 0;;
+    padding: 5rem;
+}
+header ul img{
+    height: 30px;
+}
+#games{
+    height: 30px;
+ 
+}
+#picture{
+    height: 30px;
+}
+#play{
+    height: 30px;
+}
+#mail{
+    height: 30px; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 0.8rem;
+    border-radius: 30px;
+}
+
+.search:hover {
+    box-shadow: 1px 2px 2px 2px lightgray;
+}
+
+.search img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.search input[type="text"] {
+    flex: 1;
+}
+
+.search button {
+    margin-left: 10px;
+}
+
+footer ul img {
+    height:18px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    margin: 0;
+    padding: 3.5rem;
+}
+
+footer ul h1 {
+    color: black;
+}
+ 
+
+
+</style>
+
+ 
